@@ -1,12 +1,50 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-/* 
+#trafficTop{
+    background: black;
+    width: 24px;
+    height: 96px;
+    display: flex;
+}
 
-    You can write your own styles here...
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px;
+    background: black;
+    width: 96px;
+    height: 256px;
+    border-radius: 16px;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
 
-*/
+.luzRoja{
+    background: red;
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+}
+
+.luzAmarilla{
+    background: orange;
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+}
+
+.luzVerde{
+    background: green;
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+}
+
+.luzEncendida{
+    box-shadow: 5px 5px 10px 15px rgba(232, 232, 122, 0.855);
+}
